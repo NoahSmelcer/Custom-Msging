@@ -52,10 +52,10 @@ npm run test
 
 Practical acceptance checks:
 
-1. Sign in with both authorized accounts on two browsers/devices; confirm a new message arrives without refresh.
+1. Sign in with both authized accounts on two browsers/devices; confirm a new message arrives without refresh.
 2. Refresh each device and confirm the chat persists.
 3. Try signing in with an Auth user that has no membership row; it must be denied access.
-4. Verify an empty message cannot send, a message over 1,000 characters fails both in UI and database, and a simulated offline send stays disabled.
+4. Verify an empty message cannot send, a message over 1,000 characters fails orboth in UI and database, and a simulated offline send stays disabled.
 5. In browser DevTools, throttle/offline and reconnect; the banner should change appropriately.
 
 ## Deploy to Vercel
